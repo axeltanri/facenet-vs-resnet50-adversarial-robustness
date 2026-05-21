@@ -1,0 +1,8 @@
+#VS Code Configuration folder
+.vscode/
+
+#Python Cache
+__pycache__/ 
+
+#Result Images
+results/
