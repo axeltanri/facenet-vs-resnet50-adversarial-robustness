@@ -19,31 +19,27 @@ Features
 
 Project Structure
 
-project/
-│
+```
+facenet-vs-resnet50-adversarial-robustness/
 ├── dataset/
 │   └── lfw-fixed/
-│
 ├── pairs/
 │   ├── all_pairs.txt
 │   ├── genuine_pairs.txt
 │   └── imposter_pairs.txt
-│
 ├── src/
 │   ├── attacks.py
 │   ├── dataset_utils.py
 │   ├── evaluation.py
 │   ├── roc_utils.py
-│   │
 │   ├── facenet.py
 │   ├── preprocess_facenet.py
 │   ├── main_facenet.py
-│   │
 │   ├── resnet.py
 │   ├── preprocess_resnet.py
 │   └── main_resnet.py
-│
 └── README.md
+```
 
 Hardware Requirements
 - Processor : Intel Core i5 / AMD Ryzen 5 or equivalent
